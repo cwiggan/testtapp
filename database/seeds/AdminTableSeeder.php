@@ -13,7 +13,7 @@ class AdminTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => Str::random(10),
-            'email' => Str::random(10).'@gmail.com',
+            'email' => 'tappingfloor@gmail.com',
             'type' => 1,
             'status' => 1,
             'password' => Hash::make('password'),
